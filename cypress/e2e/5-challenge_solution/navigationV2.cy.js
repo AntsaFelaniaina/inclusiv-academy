@@ -1,6 +1,6 @@
 // const { beforeEach } = require("mocha")
 function openURL() {
-  cy.visit('http://demo.owasp-juice.shop')
+  cy.visit('http://localhost:3000/#/')
   cy.get('#mat-dialog-0').should('be.visible')
   cy.get('.close-dialog').click()
   cy.get('#mat-dialog-0').should('not.exist')
@@ -61,7 +61,7 @@ describe('Navigation', () => {
     cy.url().should('contain', 'board')
   })
 
-  it.only('user should be able to search an article', () => {
+  it('user should be able to search an article', () => {
     searchArticle('Banana Juice')
   })
 
