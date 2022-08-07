@@ -1,0 +1,23 @@
+{
+  "name": "inclusiv-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rworganization/inclusiv-academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rworganization/inclusiv-academy/issues"
+  },
+  "homepage": "https://github.com/rworganization/inclusiv-academy#readme",
+  "dependencies": {
+    "cypress": "^10.4.0"
+  }
+}
